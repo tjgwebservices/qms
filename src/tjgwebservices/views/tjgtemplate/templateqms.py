@@ -134,7 +134,7 @@ class TemplateQMSObject(object):
         navstart.append('  <ul class="navbar">')
         return navstart
  
-     def printNavClose(self):
+    def printNavClose(self):
         navclose = []
         navclose.append('    </ul>')
         navclose.append('	<ul class="navbar">')
